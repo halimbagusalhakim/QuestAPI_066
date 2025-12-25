@@ -12,6 +12,7 @@ interface RepositoryDataSiswa {
 
     suspend fun editSatuSiswa(id:Int,dataSiswa: DataSiswa) :retrofit2.Response<Void>
 
+
 }
 
 
